@@ -1,6 +1,6 @@
 html {
     overflow-x: clip;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 30px;
     --accent-color-theme: #166534;
     --hover-btn-color: #13562d;
     --basic-transition: all 0.2s ease;
@@ -132,13 +132,15 @@ body {
 
 .download-cv {
     display: flex;
-    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
     gap: 4px;
     padding: 0.6em 1.7em;
-    border: 1.5px solid var(--accent-color-theme);
     color: #fff;
     margin-top: 30px;
-    margin-left: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     border: 1.5px solid #fff;
     border-radius: 0;
     transition: var(--basic-transition);
@@ -168,6 +170,8 @@ body {
 .hero-caption .btn {
     width: min(155px, 70%);
     margin-top: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .hero-image-wrapper {
