@@ -548,7 +548,7 @@ body {
     font-size: clamp(2.1rem, 3.7vw, 2.45rem);
     background-color: #1b2539;
     border: 2px solid rgba(42, 42, 55, 0.3);
-    max-height: fit-content;
+    height: fit-content;
     padding: 1rem 1.5rem;
     border-radius: 50%;
 }
